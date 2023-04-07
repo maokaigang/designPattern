@@ -10,7 +10,7 @@ public class Test {
         System.out.println(单例模式.InnerClassSingleton.getInstance());
         单例模式.EnumSingleton enumSingleton = 单例模式.EnumSingleton.INSTANCE;
         enumSingleton.print();
-        
+
         /*
             序列化、反序列化后存在多例，添加
             Object readResolve() throws ObjectStreamException {
